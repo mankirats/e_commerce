@@ -49,7 +49,7 @@ const ButtonContainer = styled.button`
     width: 100%;
     padding: 0.5rem;
     border: none;
-    color: darkgray;
+    color: #50575e;
     background: white;
     outline: 0;
     font-size: 0.9rem;
