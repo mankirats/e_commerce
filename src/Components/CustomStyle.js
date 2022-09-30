@@ -36,8 +36,11 @@ const UserProfile = styled(Container)`
 
 const ProductWrapper = styled(Container)`
     height: 25vh;
-    min-width: 29vw;
+    width: calc(100vw / 4.5);
     justify-content: flex-end;
+    @media (max-width: 768px) {
+        width: calc(100vw / 2.5);
+    }
 `;
 
 const ProductContainer = styled(Container)`
